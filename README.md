@@ -2,7 +2,7 @@
 
 Prototype for The Date Crew Product Engineer assessment (Part 3).
 
-**Live demo:** https://yashdagar.github.io/datecrew-match-check/ (runs this repo's Python in the browser via Pyodide, on the mock data below)
+**Live demo:** https://datecrew-match-check.netlify.app (runs this repo's Python in the browser via Pyodide, on the mock data below)
 
 **Problem it targets:** about 35% of rejected profiles were rejected for reasons the client had already stated in their preferences. Those rejections cost the client's trust and the matchmaker's time, and they drag acceptance down (31% overall, 21% for Matchmaker B).
 
