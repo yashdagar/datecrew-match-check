@@ -16,15 +16,18 @@ def cmd_shortlist(args):
     c = clients[args.client]
     done = [s["profile_id"] for s in shares if s["client_id"] == c["id"]]
     res = shortlist(c, list(profiles.values()), already_shared=done)
-    print("%s (%s, %d) seeks %s age %s, %d candidates pass, %d blocked" % (
-        c["id"], c["name"], c["age"], c["preferences"]["gender"], c["preferences"]["age"], len(res["passed"]), len(res["blocked"])))
+    print("%s (%s, %d) seeks %s age %s, %d pass, %d near misses to check with the client, %d filtered out" % (
+        c["id"], c["name"], c["age"], c["preferences"]["gender"], c["preferences"]["age"], len(res["passed"]), len(res["warned"]), len(res["blocked"])))
     print("\nTop %d to share:" % args.top)
     for r in res["passed"][:args.top]:
         p = profiles[r.profile_id]
         print("  %s %-8s %d %s %-10s %-11s score=%.2f" % (p["id"], p["name"], p["age"], p["city"], p["profession"], p["religion"], r.score))
     if res["unlock"]:
         print("\nRelaxing one preference would unlock: %s" % ", ".join("%s +%d" % u for u in res["unlock"][:3]))
-    print("\nBlocked examples:")
+    print("\nNear misses (one non-deal-breaker preference missed), check with the client:")
+    for r in res["warned"][:args.top]:
+        print("  %s: %s" % (r.profile_id, "; ".join(v.detail for v in r.violations)))
+    print("\nFiltered out (deal-breaker or several misses):")
     for r in res["blocked"][:args.top]:
         print("  %s: %s" % (r.profile_id, "; ".join(v.detail for v in r.violations)))
 
@@ -69,7 +72,8 @@ def cmd_report(args):
     for c in clients.values():
         done = [x["profile_id"] for x in shares if x["client_id"] == c["id"]]
         res = shortlist(c, list(profiles.values()), already_shared=done)
-        parts.append("<details><summary>%s %s: %d pass, %d blocked</summary><ol>" % (c["id"], html.escape(c["name"]), len(res["passed"]), len(res["blocked"])))
+        parts.append("<details><summary>%s %s: %d pass, %d to check, %d blocked</summary><ol>" % (
+            c["id"], html.escape(c["name"]), len(res["passed"]), len(res["warned"]), len(res["blocked"])))
         for r in res["passed"][:5]:
             p = profiles[r.profile_id]
             parts.append("<li>%s %s, %d, %s, %s (score %.2f)</li>" % (p["id"], html.escape(p["name"]), p["age"], p["city"], p["profession"], r.score))

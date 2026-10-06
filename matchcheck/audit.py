@@ -76,3 +76,43 @@ def summarize(rows: List[Dict]) -> Dict:
         "reasons": reasons.most_common(),
         "client_pref_gaps": {c: g.most_common(3) for c, g in sorted(gaps.items()) if sum(g.values()) >= 2},
     }
+
+
+RANGE_ATTRS = {"age": "age", "height": "height_cm"}
+LIST_ATTRS = {"religion": ("religion", "religion"), "diet": ("diet", "diet"), "marital_status": ("marital_status", "marital_status"),
+              "location": ("cities", "city")}
+
+
+def preference_updates(clients: Dict, profiles: Dict, shares: List[Dict]) -> Dict[str, List[Dict]]:
+    accepted_outside = defaultdict(lambda: defaultdict(list))
+    for s in shares:
+        if s["decision"] != "accepted":
+            continue
+        c, p = clients[s["client_id"]], profiles[s["profile_id"]]
+        for v in hard_violations(c["preferences"], p):
+            if not v.dealbreaker:
+                accepted_outside[c["id"]][v.attribute].append(p)
+
+    out = {}
+    for cid, by_attr in accepted_outside.items():
+        prefs = clients[cid]["preferences"]
+        tips = []
+        for attr, ps in sorted(by_attr.items()):
+            ids = [p["id"] for p in ps]
+            if attr in RANGE_ATTRS:
+                key = RANGE_ATTRS[attr]
+                lo, hi = prefs[key]
+                vals = [p[key] for p in ps]
+                new = [min([lo] + vals), max([hi] + vals)]
+                tips.append({"attribute": attr, "accepted": ids, "current": [lo, hi], "suggested": new,
+                             "text": "accepted %d outside %s %d-%d, widen to %d-%d" % (len(ps), attr, lo, hi, *new)})
+            elif attr in LIST_ATTRS:
+                key, field = LIST_ATTRS[attr]
+                extra = sorted({p[field] for p in ps} - set(prefs.get(key) or []))
+                tips.append({"attribute": attr, "accepted": ids, "current": prefs.get(key), "suggested": (prefs.get(key) or []) + extra,
+                             "text": "accepted %d outside stated %s, add %s" % (len(ps), attr, ", ".join(extra))})
+            else:
+                tips.append({"attribute": attr, "accepted": ids, "current": prefs.get("min_education"), "suggested": None,
+                             "text": "accepted %d below stated %s, ask if it is still a requirement" % (len(ps), attr)})
+        out[cid] = tips
+    return dict(sorted(out.items()))

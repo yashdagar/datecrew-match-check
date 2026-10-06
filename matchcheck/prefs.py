@@ -83,13 +83,19 @@ def check(client: Dict, profile: Dict) -> CheckResult:
 
 
 def shortlist(client: Dict, profiles: List[Dict], already_shared=()) -> Dict[str, List[CheckResult]]:
-    passed, blocked = [], []
+    passed, warned, blocked = [], [], []
     seen = set(already_shared)
     for p in profiles:
         if p["id"] == client["id"] or p["id"] in seen or p["gender"] != client["preferences"]["gender"]:
             continue
         r = check(client, p)
-        (passed if r.ok else blocked).append(r)
+        if r.ok:
+            passed.append(r)
+        elif len(r.violations) == 1 and not r.violations[0].dealbreaker:
+            warned.append(r)
+        else:
+            blocked.append(r)
     passed.sort(key=lambda r: -r.score)
-    unlock = Counter(r.violations[0].attribute for r in blocked if len(r.violations) == 1 and not r.violations[0].dealbreaker)
-    return {"passed": passed, "blocked": blocked, "unlock": unlock.most_common()}
+    warned.sort(key=lambda r: -r.score)
+    unlock = Counter(r.violations[0].attribute for r in warned)
+    return {"passed": passed, "warned": warned, "blocked": blocked, "unlock": unlock.most_common()}
