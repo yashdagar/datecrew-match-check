@@ -1,0 +1,784 @@
+[
+ {
+  "id": "C001",
+  "name": "Naina",
+  "gender": "F",
+  "age": 27,
+  "height_cm": 160,
+  "religion": "Sikh",
+  "city": "Delhi",
+  "open_to_relocate": false,
+  "diet": "veg",
+  "smokes": false,
+  "drinks": false,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "graduate",
+  "profession": "Founder",
+  "income_lpa": 8,
+  "interests": [
+   "startups",
+   "trekking",
+   "travel"
+  ],
+  "preferences": {
+   "gender": "M",
+   "age": [
+    31,
+    36
+   ],
+   "height_cm": [
+    160,
+    190
+   ],
+   "religion": [],
+   "cities": [
+    "Hyderabad",
+    "Pune",
+    "Delhi"
+   ],
+   "diet": [
+    "veg",
+    "eggetarian"
+   ],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "postgraduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": true,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Founder",
+     "Engineer",
+     "Consultant"
+    ],
+    "min_income_lpa": 12,
+    "interests": [
+     "cooking",
+     "trekking",
+     "music"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C002",
+  "name": "Aditya",
+  "gender": "M",
+  "age": 26,
+  "height_cm": 188,
+  "religion": "Hindu",
+  "city": "Hyderabad",
+  "open_to_relocate": true,
+  "diet": "non-veg",
+  "smokes": false,
+  "drinks": true,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "graduate",
+  "profession": "Founder",
+  "income_lpa": 25,
+  "interests": [
+   "startups",
+   "trekking",
+   "films"
+  ],
+  "preferences": {
+   "gender": "F",
+   "age": [
+    28,
+    36
+   ],
+   "height_cm": [
+    148,
+    172
+   ],
+   "religion": [
+    "Hindu"
+   ],
+   "cities": [
+    "Gurugram",
+    "Hyderabad",
+    "Pune"
+   ],
+   "diet": [],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "graduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": false,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Designer",
+     "Teacher",
+     "Founder"
+    ],
+    "min_income_lpa": 18,
+    "interests": [
+     "dogs",
+     "fitness",
+     "startups"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C003",
+  "name": "Tara",
+  "gender": "F",
+  "age": 31,
+  "height_cm": 153,
+  "religion": "Jain",
+  "city": "Gurugram",
+  "open_to_relocate": false,
+  "diet": "non-veg",
+  "smokes": false,
+  "drinks": true,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "postgraduate",
+  "profession": "Designer",
+  "income_lpa": 60,
+  "interests": [
+   "films",
+   "art",
+   "startups"
+  ],
+  "preferences": {
+   "gender": "M",
+   "age": [
+    25,
+    30
+   ],
+   "height_cm": [
+    160,
+    190
+   ],
+   "religion": [],
+   "cities": [
+    "Bengaluru",
+    "Delhi",
+    "Pune"
+   ],
+   "diet": [],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "postgraduate",
+   "dealbreakers": {
+    "no_smoking": false,
+    "no_drinking": false,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Teacher",
+     "Lawyer",
+     "Designer"
+    ],
+    "min_income_lpa": 18,
+    "interests": [
+     "films",
+     "travel",
+     "art"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C004",
+  "name": "Nikhil",
+  "gender": "M",
+  "age": 27,
+  "height_cm": 159,
+  "religion": "Hindu",
+  "city": "Gurugram",
+  "open_to_relocate": false,
+  "diet": "veg",
+  "smokes": false,
+  "drinks": true,
+  "wants_children": false,
+  "marital_status": "never_married",
+  "education": "graduate",
+  "profession": "Consultant",
+  "income_lpa": 12,
+  "interests": [
+   "trekking",
+   "startups",
+   "cooking"
+  ],
+  "preferences": {
+   "gender": "F",
+   "age": [
+    30,
+    38
+   ],
+   "height_cm": [
+    148,
+    172
+   ],
+   "religion": [],
+   "cities": [
+    "Hyderabad",
+    "Bengaluru",
+    "Gurugram"
+   ],
+   "diet": [
+    "veg",
+    "eggetarian"
+   ],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "graduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": false,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Founder",
+     "Engineer",
+     "Teacher"
+    ],
+    "min_income_lpa": 25,
+    "interests": [
+     "music",
+     "cooking",
+     "startups"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C005",
+  "name": "Aanya",
+  "gender": "F",
+  "age": 27,
+  "height_cm": 161,
+  "religion": "Hindu",
+  "city": "Pune",
+  "open_to_relocate": false,
+  "diet": "eggetarian",
+  "smokes": false,
+  "drinks": false,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "graduate",
+  "profession": "Banker",
+  "income_lpa": 25,
+  "interests": [
+   "trekking",
+   "dogs",
+   "fitness"
+  ],
+  "preferences": {
+   "gender": "M",
+   "age": [
+    28,
+    36
+   ],
+   "height_cm": [
+    160,
+    190
+   ],
+   "religion": [
+    "Hindu"
+   ],
+   "cities": [
+    "Delhi",
+    "Gurugram",
+    "Bengaluru"
+   ],
+   "diet": [],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "graduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": false,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Doctor",
+     "Engineer",
+     "Consultant"
+    ],
+    "min_income_lpa": 12,
+    "interests": [
+     "startups",
+     "fitness",
+     "films"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C006",
+  "name": "Sahil",
+  "gender": "M",
+  "age": 25,
+  "height_cm": 156,
+  "religion": "Muslim",
+  "city": "Pune",
+  "open_to_relocate": true,
+  "diet": "non-veg",
+  "smokes": false,
+  "drinks": false,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "postgraduate",
+  "profession": "Teacher",
+  "income_lpa": 25,
+  "interests": [
+   "art",
+   "cooking",
+   "fitness"
+  ],
+  "preferences": {
+   "gender": "F",
+   "age": [
+    26,
+    31
+   ],
+   "height_cm": [
+    148,
+    172
+   ],
+   "religion": [],
+   "cities": [
+    "Hyderabad",
+    "Mumbai",
+    "Bengaluru"
+   ],
+   "diet": [],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "postgraduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": true,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Designer",
+     "Doctor",
+     "Teacher"
+    ],
+    "min_income_lpa": 25,
+    "interests": [
+     "travel",
+     "startups",
+     "cooking"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C007",
+  "name": "Pooja",
+  "gender": "F",
+  "age": 38,
+  "height_cm": 150,
+  "religion": "Sikh",
+  "city": "Mumbai",
+  "open_to_relocate": false,
+  "diet": "eggetarian",
+  "smokes": false,
+  "drinks": true,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "postgraduate",
+  "profession": "Founder",
+  "income_lpa": 12,
+  "interests": [
+   "trekking",
+   "reading",
+   "startups"
+  ],
+  "preferences": {
+   "gender": "M",
+   "age": [
+    29,
+    37
+   ],
+   "height_cm": [
+    160,
+    190
+   ],
+   "religion": [
+    "Sikh"
+   ],
+   "cities": [
+    "Delhi",
+    "Hyderabad",
+    "Mumbai"
+   ],
+   "diet": [],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "graduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": false,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Designer",
+     "Founder",
+     "Teacher"
+    ],
+    "min_income_lpa": 18,
+    "interests": [
+     "films",
+     "fitness",
+     "reading"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C008",
+  "name": "Arjun",
+  "gender": "M",
+  "age": 28,
+  "height_cm": 182,
+  "religion": "Hindu",
+  "city": "Gurugram",
+  "open_to_relocate": true,
+  "diet": "eggetarian",
+  "smokes": false,
+  "drinks": true,
+  "wants_children": false,
+  "marital_status": "never_married",
+  "education": "postgraduate",
+  "profession": "Doctor",
+  "income_lpa": 25,
+  "interests": [
+   "reading",
+   "art",
+   "music"
+  ],
+  "preferences": {
+   "gender": "F",
+   "age": [
+    28,
+    35
+   ],
+   "height_cm": [
+    148,
+    172
+   ],
+   "religion": [
+    "Hindu"
+   ],
+   "cities": [
+    "Hyderabad",
+    "Bengaluru",
+    "Pune"
+   ],
+   "diet": [],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "graduate",
+   "dealbreakers": {
+    "no_smoking": false,
+    "no_drinking": true,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Lawyer",
+     "Doctor",
+     "Banker"
+    ],
+    "min_income_lpa": 12,
+    "interests": [
+     "music",
+     "art",
+     "dogs"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C009",
+  "name": "Zoya",
+  "gender": "F",
+  "age": 38,
+  "height_cm": 167,
+  "religion": "Christian",
+  "city": "Hyderabad",
+  "open_to_relocate": false,
+  "diet": "veg",
+  "smokes": false,
+  "drinks": true,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "graduate",
+  "profession": "Lawyer",
+  "income_lpa": 25,
+  "interests": [
+   "reading",
+   "dogs",
+   "travel"
+  ],
+  "preferences": {
+   "gender": "M",
+   "age": [
+    27,
+    33
+   ],
+   "height_cm": [
+    160,
+    190
+   ],
+   "religion": [
+    "Christian"
+   ],
+   "cities": [
+    "Gurugram",
+    "Pune",
+    "Mumbai"
+   ],
+   "diet": [
+    "veg",
+    "eggetarian"
+   ],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "graduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": false,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Engineer",
+     "Designer",
+     "Lawyer"
+    ],
+    "min_income_lpa": 18,
+    "interests": [
+     "dogs",
+     "startups",
+     "trekking"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C010",
+  "name": "Aditya",
+  "gender": "M",
+  "age": 27,
+  "height_cm": 186,
+  "religion": "Hindu",
+  "city": "Pune",
+  "open_to_relocate": true,
+  "diet": "non-veg",
+  "smokes": false,
+  "drinks": true,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "postgraduate",
+  "profession": "Doctor",
+  "income_lpa": 40,
+  "interests": [
+   "travel",
+   "films",
+   "art"
+  ],
+  "preferences": {
+   "gender": "F",
+   "age": [
+    31,
+    36
+   ],
+   "height_cm": [
+    148,
+    172
+   ],
+   "religion": [],
+   "cities": [
+    "Delhi",
+    "Gurugram",
+    "Pune"
+   ],
+   "diet": [],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "graduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": true,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Teacher",
+     "Consultant",
+     "Engineer"
+    ],
+    "min_income_lpa": 12,
+    "interests": [
+     "art",
+     "films",
+     "reading"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C011",
+  "name": "Neha",
+  "gender": "F",
+  "age": 29,
+  "height_cm": 162,
+  "religion": "Hindu",
+  "city": "Bengaluru",
+  "open_to_relocate": false,
+  "diet": "veg",
+  "smokes": false,
+  "drinks": false,
+  "wants_children": false,
+  "marital_status": "divorced",
+  "education": "postgraduate",
+  "profession": "Founder",
+  "income_lpa": 25,
+  "interests": [
+   "music",
+   "trekking",
+   "fitness"
+  ],
+  "preferences": {
+   "gender": "M",
+   "age": [
+    28,
+    36
+   ],
+   "height_cm": [
+    160,
+    190
+   ],
+   "religion": [
+    "Hindu"
+   ],
+   "cities": [
+    "Hyderabad",
+    "Gurugram",
+    "Bengaluru"
+   ],
+   "diet": [
+    "veg",
+    "eggetarian"
+   ],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "graduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": false,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Doctor",
+     "Banker",
+     "Teacher"
+    ],
+    "min_income_lpa": 25,
+    "interests": [
+     "films",
+     "music",
+     "cooking"
+    ]
+   }
+  }
+ },
+ {
+  "id": "C012",
+  "name": "Dev",
+  "gender": "M",
+  "age": 32,
+  "height_cm": 166,
+  "religion": "Jain",
+  "city": "Delhi",
+  "open_to_relocate": true,
+  "diet": "non-veg",
+  "smokes": false,
+  "drinks": false,
+  "wants_children": true,
+  "marital_status": "never_married",
+  "education": "postgraduate",
+  "profession": "Designer",
+  "income_lpa": 25,
+  "interests": [
+   "reading",
+   "films",
+   "startups"
+  ],
+  "preferences": {
+   "gender": "F",
+   "age": [
+    25,
+    32
+   ],
+   "height_cm": [
+    148,
+    172
+   ],
+   "religion": [
+    "Jain"
+   ],
+   "cities": [
+    "Pune",
+    "Bengaluru",
+    "Hyderabad"
+   ],
+   "diet": [],
+   "marital_status": [
+    "never_married"
+   ],
+   "min_education": "postgraduate",
+   "dealbreakers": {
+    "no_smoking": true,
+    "no_drinking": false,
+    "wants_children": true
+   },
+   "soft": {
+    "professions": [
+     "Consultant",
+     "Teacher",
+     "Engineer"
+    ],
+    "min_income_lpa": 12,
+    "interests": [
+     "reading",
+     "fitness",
+     "startups"
+    ]
+   }
+  }
+ }
+]

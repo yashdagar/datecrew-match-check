@@ -1,0 +1,234 @@
+client_id,profile_id,matchmaker,decision,feedback
+C001,P183,A,rejected,Age gap is too much
+C001,P487,A,accepted,
+C001,P159,A,rejected,Too short for me
+C001,P187,A,rejected,Age gap is too much
+C001,P569,A,rejected,Photos don't do it for me
+C001,P527,A,rejected,Not my type looks-wise
+C001,P173,A,rejected,"Lives in another city, not doing long distance"
+C001,P575,A,accepted,
+C001,P153,A,accepted,
+C001,P369,A,accepted,
+C001,P067,A,accepted,
+C001,P263,A,rejected,Not open to second marriage
+C001,P525,A,accepted,
+C001,P533,A,rejected,"Lives in another city, not doing long distance"
+C002,P296,B,rejected,Height is an issue
+C002,P256,B,rejected,Too far
+C002,P366,B,rejected,She's younger than I'd like
+C002,P042,B,accepted,
+C002,P338,B,rejected,Vibe seems off
+C002,P494,B,rejected,He is too old for me
+C002,P424,B,accepted,
+C002,P360,B,rejected,Income is lower than I'd like
+C002,P346,B,rejected,"Seems like an introvert, I want someone outgoing"
+C002,P582,B,rejected,He is too old for me
+C002,P380,B,rejected,"Startup founder, too risky"
+C002,P038,B,accepted,
+C002,P204,B,rejected,"Lives in another city, not doing long distance"
+C002,P320,B,rejected,Age gap is too much
+C002,P404,B,rejected,"Startup founder, too risky"
+C002,P062,B,rejected,Vibe seems off
+C002,P484,B,rejected,He smokes. dealbreaker
+C002,P600,B,rejected,Smoking is a hard no
+C002,P254,B,rejected,"Startup founder, too risky"
+C002,P100,B,rejected,Family wants same community
+C002,P216,B,rejected,He is too old for me
+C002,P530,B,rejected,"Won't relocate, that's a no"
+C002,P018,B,rejected,Didn't feel any attraction from the photos
+C002,P288,B,rejected,Not my type looks-wise
+C002,P348,B,rejected,Photos don't do it for me
+C003,P117,A,accepted,
+C003,P557,A,rejected,She's younger than I'd like
+C003,P279,A,accepted,
+C003,P221,A,rejected,"Won't relocate, that's a no"
+C003,P091,A,accepted,
+C003,P441,A,accepted,
+C003,P577,A,accepted,
+C003,P223,A,rejected,"Startup founder, too risky"
+C003,P489,A,rejected,Career not stable enough
+C003,P473,A,accepted,
+C003,P245,A,rejected,"Won't relocate, that's a no"
+C003,P109,A,rejected,Didn't feel any attraction from the photos
+C003,P235,A,accepted,
+C003,P523,A,rejected,Not in my age range honestly
+C003,P391,A,accepted,
+C003,P359,A,accepted,
+C003,P209,A,rejected,She's younger than I'd like
+C003,P415,A,accepted,
+C003,P287,A,accepted,
+C003,P273,A,rejected,Didn't feel any attraction from the photos
+C003,P283,A,rejected,Bio feels boring
+C003,P293,A,rejected,"Seems like an introvert, I want someone outgoing"
+C003,P125,A,accepted,
+C003,P055,A,accepted,
+C003,P107,A,accepted,
+C004,P510,B,rejected,Bio feels boring
+C004,P588,B,accepted,
+C004,P330,B,accepted,
+C004,P586,B,rejected,He is too old for me
+C004,P012,B,rejected,"Won't relocate, that's a no"
+C004,P500,B,rejected,"Won't relocate, that's a no"
+C004,P592,B,accepted,
+C004,P188,B,accepted,
+C004,P452,B,rejected,Bio feels boring
+C004,P234,B,rejected,"Wants kids soon, I'm not sure I do"
+C004,P448,B,rejected,Bio feels boring
+C004,P172,B,accepted,
+C004,P582,B,rejected,Diet doesn't match
+C004,P294,B,rejected,Vibe seems off
+C004,P504,B,rejected,Not in my age range honestly
+C004,P066,B,rejected,She's younger than I'd like
+C004,P024,B,accepted,
+C004,P236,B,rejected,"Startup founder, too risky"
+C004,P198,B,rejected,Too far
+C004,P372,B,accepted,
+C004,P186,B,rejected,Not in my age range honestly
+C004,P070,B,rejected,Smoking is a hard no
+C004,P528,B,accepted,
+C004,P360,B,accepted,
+C004,P270,B,rejected,"Startup founder, too risky"
+C005,P471,A,accepted,
+C005,P391,A,accepted,
+C005,P303,A,rejected,Vibe seems off
+C005,P131,A,rejected,Age gap is too much
+C005,P349,A,rejected,Career not stable enough
+C005,P077,A,rejected,Didn't feel any attraction from the photos
+C005,P549,A,rejected,Vibe seems off
+C005,P105,A,accepted,
+C005,P283,A,rejected,Income is lower than I'd like
+C005,P499,A,rejected,Bio feels boring
+C005,P189,A,rejected,Career not stable enough
+C005,P147,A,rejected,Age gap is too much
+C005,P025,A,rejected,Not my type looks-wise
+C005,P527,A,rejected,Didn't feel any attraction from the photos
+C005,P437,A,accepted,
+C005,P179,A,rejected,He is too old for me
+C005,P195,A,rejected,Career not stable enough
+C005,P487,A,accepted,
+C005,P505,A,accepted,
+C005,P067,A,rejected,"Lives in another city, not doing long distance"
+C005,P375,A,accepted,
+C005,P423,A,accepted,
+C005,P441,A,accepted,
+C005,P075,A,accepted,
+C005,P285,A,rejected,"Seems like an introvert, I want someone outgoing"
+C006,P368,B,rejected,Not open to second marriage
+C006,P450,B,accepted,
+C006,P166,B,rejected,"Startup founder, too risky"
+C006,P370,B,rejected,I don't want someone who drinks
+C006,P332,B,rejected,"Drinks regularly, not ok"
+C006,P470,B,rejected,Photos don't do it for me
+C006,P306,B,rejected,"Lives in another city, not doing long distance"
+C006,P512,B,rejected,Not my type looks-wise
+C006,P068,B,rejected,Not in my age range honestly
+C006,P080,B,rejected,Too far
+C006,P130,B,rejected,"Drinks regularly, not ok"
+C006,P320,B,rejected,Education level doesn't match
+C006,P434,B,rejected,She's younger than I'd like
+C006,P008,B,rejected,"Doesn't want kids, I do"
+C006,P126,B,rejected,Bio feels boring
+C006,P028,B,rejected,Education level doesn't match
+C006,P468,B,rejected,"Doesn't want kids, I do"
+C006,P240,B,rejected,Too far
+C006,P046,B,rejected,Career not stable enough
+C006,P404,B,rejected,Too far
+C006,P266,B,rejected,"Drinks regularly, not ok"
+C006,P482,B,rejected,Education level doesn't match
+C006,P192,B,rejected,Age gap is too much
+C006,P078,B,rejected,Age gap is too much
+C006,P014,B,rejected,We differ on having children
+C007,P369,A,rejected,Vibe seems off
+C007,P481,A,rejected,Age gap is too much
+C007,P361,A,accepted,
+C007,P185,A,rejected,Career not stable enough
+C007,P359,A,accepted,
+C007,P167,A,rejected,"Won't relocate, that's a no"
+C007,P055,A,accepted,
+C007,P275,A,accepted,
+C007,P269,A,rejected,Didn't feel any attraction from the photos
+C008,P328,B,rejected,Income is lower than I'd like
+C008,P574,B,rejected,He is too old for me
+C008,P300,B,rejected,I don't want someone who drinks
+C008,P232,B,rejected,I don't want someone who drinks
+C008,P500,B,rejected,Income is lower than I'd like
+C008,P402,B,rejected,"Divorced, family not comfortable"
+C008,P016,B,accepted,
+C008,P484,B,rejected,"Won't relocate, that's a no"
+C008,P288,B,rejected,"Won't relocate, that's a no"
+C008,P492,B,rejected,Not in my age range honestly
+C008,P316,B,accepted,
+C008,P106,B,rejected,I don't want someone who drinks
+C008,P374,B,rejected,Age gap is too much
+C008,P088,B,rejected,"Seems like an introvert, I want someone outgoing"
+C008,P214,B,rejected,"Seems like an introvert, I want someone outgoing"
+C008,P272,B,rejected,Family wants same community
+C008,P042,B,rejected,"Won't relocate, that's a no"
+C008,P348,B,accepted,
+C008,P332,B,rejected,"Drinks regularly, not ok"
+C008,P582,B,rejected,He is too old for me
+C008,P256,B,rejected,Too far
+C008,P126,B,rejected,Not in my age range honestly
+C008,P212,B,rejected,I don't want someone who drinks
+C008,P536,B,rejected,"Drinks regularly, not ok"
+C008,P452,B,accepted,
+C009,P029,A,rejected,We differ on having children
+C009,P289,A,accepted,
+C010,P104,B,rejected,Age gap is too much
+C010,P470,B,rejected,Didn't feel any attraction from the photos
+C010,P282,B,rejected,"Seems like an introvert, I want someone outgoing"
+C010,P422,B,rejected,He is too old for me
+C010,P540,B,accepted,
+C010,P246,B,rejected,"Won't relocate, that's a no"
+C010,P592,B,rejected,"Lives in another city, not doing long distance"
+C010,P148,B,rejected,"Startup founder, too risky"
+C010,P544,B,rejected,I don't want someone who drinks
+C010,P582,B,accepted,
+C010,P012,B,rejected,Didn't feel any attraction from the photos
+C010,P390,B,rejected,She's younger than I'd like
+C010,P036,B,rejected,"Lives in another city, not doing long distance"
+C010,P568,B,accepted,
+C010,P262,B,rejected,"Seems like an introvert, I want someone outgoing"
+C010,P588,B,rejected,Vibe seems off
+C010,P558,B,rejected,Income is lower than I'd like
+C010,P348,B,rejected,Not my type looks-wise
+C010,P158,B,rejected,Not in my age range honestly
+C010,P330,B,rejected,Income is lower than I'd like
+C010,P594,B,rejected,"Wants kids soon, I'm not sure I do"
+C010,P406,B,accepted,
+C010,P170,B,rejected,Age gap is too much
+C010,P182,B,accepted,
+C010,P112,B,rejected,Photos don't do it for me
+C011,P057,A,accepted,
+C011,P003,A,accepted,
+C011,P525,A,rejected,She's younger than I'd like
+C011,P531,A,accepted,
+C011,P423,A,accepted,
+C011,P195,A,accepted,
+C011,P479,A,accepted,
+C011,P179,A,rejected,Age gap is too much
+C011,P077,A,rejected,Didn't feel any attraction from the photos
+C011,P035,A,rejected,"Seems like an introvert, I want someone outgoing"
+C011,P577,A,rejected,"Startup founder, too risky"
+C011,P499,A,accepted,
+C011,P421,A,rejected,"Startup founder, too risky"
+C011,P075,A,rejected,"Lives in another city, not doing long distance"
+C011,P189,A,accepted,
+C011,P201,A,rejected,"Startup founder, too risky"
+C011,P441,A,rejected,Vibe seems off
+C011,P575,A,accepted,
+C011,P267,A,rejected,Non veg is a problem for my family
+C011,P097,A,rejected,He is too old for me
+C011,P151,A,accepted,
+C011,P283,A,accepted,
+C011,P455,A,rejected,"Lives in another city, not doing long distance"
+C011,P211,A,rejected,Income is lower than I'd like
+C011,P203,A,accepted,
+C012,P280,B,rejected,Bio feels boring
+C012,P146,B,accepted,
+C012,P324,B,rejected,Education level doesn't match
+C012,P204,B,rejected,Education level doesn't match
+C012,P480,B,accepted,
+C012,P378,B,rejected,"Divorced, family not comfortable"
+C012,P014,B,accepted,
+C012,P346,B,rejected,"Won't relocate, that's a no"

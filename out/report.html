@@ -1,0 +1,110 @@
+<!doctype html><meta charset=utf-8><title>Match Check</title><style>body{font:15px/1.5 system-ui,sans-serif;max-width:860px;margin:24px auto;padding:0 16px;color:#1d2433;background:#fff}.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.tiles div{border:1px solid #dde;border-radius:8px;padding:12px}.tiles b{display:block;font-size:26px}.bar{display:flex;align-items:center;gap:8px;margin:3px 0}.bar span{width:150px}.bar i{height:14px;background:#c2410c;border-radius:3px}details{margin:6px 0}summary{cursor:pointer}</style><h1>Match Check: rejection audit</h1>
+<div class="tiles">
+<div><b>30.9%</b>acceptance today</div>
+<div><b>36.0%</b>of rejections were avoidable (violated stated prefs)</div>
+<div><b>40.6%</b>acceptance if pre-share check had blocked violators</div>
+<div><b>9 / 78</b>accepted profiles the check would have blocked (false blocks)</div>
+</div><h2>By matchmaker</h2><ul>
+<li><b>Matchmaker A</b>: 100 shared, acceptance 47.0%, avoidable rejections 9.0% of shares, acceptance after filter 52.3%</li>
+<li><b>Matchmaker B</b>: 133 shared, acceptance 18.8%, avoidable rejections 36.8% of shares, acceptance after filter 26.1%</li>
+</ul><h2>Structured rejection reasons</h2>
+<div class="bar"><span>age</span><i style="width:240px"></i><b>35</b></div>
+<div class="bar"><span>location</span><i style="width:178px"></i><b>26</b></div>
+<div class="bar"><span>profession_income</span><i style="width:164px"></i><b>24</b></div>
+<div class="bar"><span>personality</span><i style="width:157px"></i><b>23</b></div>
+<div class="bar"><span>photos_looks</span><i style="width:123px"></i><b>18</b></div>
+<div class="bar"><span>drinking</span><i style="width:75px"></i><b>11</b></div>
+<div class="bar"><span>children</span><i style="width:41px"></i><b>6</b></div>
+<div class="bar"><span>education</span><i style="width:34px"></i><b>5</b></div>
+<div class="bar"><span>marital_status</span><i style="width:27px"></i><b>4</b></div>
+<div class="bar"><span>smoking</span><i style="width:20px"></i><b>3</b></div>
+<div class="bar"><span>height</span><i style="width:13px"></i><b>2</b></div>
+<div class="bar"><span>religion</span><i style="width:13px"></i><b>2</b></div>
+<div class="bar"><span>diet</span><i style="width:13px"></i><b>2</b></div>
+<h2>Clients whose rejections aren't explained by their stated preferences</h2><ul>
+<li><b>C001</b>: photos_looks x2, age x1, location x1, ask the matchmaker to update this client's profile</li>
+<li><b>C002</b>: profession_income x4, location x3, age x3, ask the matchmaker to update this client's profile</li>
+<li><b>C003</b>: age x2, location x2, profession_income x2, ask the matchmaker to update this client's profile</li>
+<li><b>C004</b>: personality x4, age x3, location x2, ask the matchmaker to update this client's profile</li>
+<li><b>C005</b>: personality x4, profession_income x4, age x3, ask the matchmaker to update this client's profile</li>
+<li><b>C006</b>: profession_income x2, photos_looks x2, age x1, ask the matchmaker to update this client's profile</li>
+<li><b>C007</b>: personality x1, profession_income x1, photos_looks x1, ask the matchmaker to update this client's profile</li>
+<li><b>C008</b>: location x4, profession_income x2, personality x2, ask the matchmaker to update this client's profile</li>
+<li><b>C010</b>: photos_looks x4, personality x3, profession_income x3, ask the matchmaker to update this client's profile</li>
+<li><b>C011</b>: profession_income x4, age x3, personality x2, ask the matchmaker to update this client's profile</li>
+<li><b>C012</b>: personality x1, location x1, ask the matchmaker to update this client's profile</li>
+</ul><h2>Next-share shortlists</h2>
+<details><summary>C001 Naina: 0 pass, 286 blocked</summary><ol>
+<p>Relaxing one preference would unlock: education +7, age +7, diet +4</p>
+</ol><p>Blocked e.g.: P001: age 29 outside 31-36; height 154cm outside 160-190; graduate below postgraduate; does not want children | P003: graduate below postgraduate; drinks | P005: age 29 outside 31-36; diet non-veg not in veg/eggetarian; divorced; drinks; does not want children</p></details>
+<details><summary>C002 Aditya: 21 pass, 254 blocked</summary><ol>
+<li>P418 Isha, 31, Pune, Founder (score 5.38)</li>
+<li>P452 Sara, 31, Bengaluru, Designer (score 4.88)</li>
+<li>P034 Meera, 34, Bengaluru, Doctor (score 4.25)</li>
+<li>P142 Diya, 36, Bengaluru, Designer (score 4.00)</li>
+<li>P428 Tara, 29, Gurugram, Founder (score 3.62)</li>
+<p>Relaxing one preference would unlock: religion +35, age +24, location +16</p>
+</ol><p>Blocked e.g.: P002: age 37 outside 28-36; smokes | P004: height 173cm outside 148-172 | P006: age 26 outside 28-36; religion Muslim not in Hindu</p></details>
+<details><summary>C003 Tara: 10 pass, 265 blocked</summary><ol>
+<li>P375 Aditya, 30, Mumbai, Teacher (score 6.00)</li>
+<li>P161 Ishaan, 25, Delhi, Lawyer (score 5.00)</li>
+<li>P227 Arjun, 30, Delhi, Lawyer (score 5.00)</li>
+<li>P429 Sahil, 27, Mumbai, Doctor (score 3.40)</li>
+<li>P127 Dev, 25, Pune, Engineer (score 3.00)</li>
+<p>Relaxing one preference would unlock: age +35, education +27, height +11</p>
+</ol><p>Blocked e.g.: P001: height 154cm outside 160-190; graduate below postgraduate; does not want children | P003: age 34 outside 25-30; graduate below postgraduate | P005: divorced; does not want children</p></details>
+<details><summary>C004 Nikhil: 22 pass, 253 blocked</summary><ol>
+<li>P190 Neha, 38, Bengaluru, Founder (score 6.00)</li>
+<li>P438 Aanya, 30, Hyderabad, Teacher (score 6.00)</li>
+<li>P418 Isha, 31, Pune, Founder (score 5.12)</li>
+<li>P332 Sara, 30, Hyderabad, Founder (score 5.00)</li>
+<li>P256 Kavya, 33, Mumbai, Teacher (score 4.38)</li>
+<p>Relaxing one preference would unlock: diet +39, age +14, location +10</p>
+</ol><p>Blocked e.g.: P002: smokes | P004: height 173cm outside 148-172 | P006: age 26 outside 30-38; Pune, not open to relocating</p></details>
+<details><summary>C005 Aanya: 15 pass, 260 blocked</summary><ol>
+<li>P593 Nikhil, 33, Delhi, Doctor (score 6.38)</li>
+<li>P531 Karan, 31, Delhi, Consultant (score 5.38)</li>
+<li>P151 Aditya, 28, Mumbai, Doctor (score 5.00)</li>
+<li>P153 Vikram, 36, Hyderabad, Engineer (score 5.00)</li>
+<li>P397 Dev, 33, Gurugram, Consultant (score 4.38)</li>
+<p>Relaxing one preference would unlock: religion +30, age +25, location +19</p>
+</ol><p>Blocked e.g.: P001: height 154cm outside 160-190; religion Muslim not in Hindu; does not want children | P005: religion Christian not in Hindu; divorced; does not want children | P007: age 25 outside 28-36</p></details>
+<details><summary>C006 Sahil: 6 pass, 269 blocked</summary><ol>
+<li>P438 Aanya, 30, Hyderabad, Teacher (score 6.20)</li>
+<li>P048 Isha, 31, Mumbai, Designer (score 5.00)</li>
+<li>P280 Kavya, 27, Bengaluru, Banker (score 3.20)</li>
+<li>P284 Meera, 29, Bengaluru, Lawyer (score 2.90)</li>
+<li>P546 Kavya, 26, Hyderabad, Lawyer (score 2.00)</li>
+<p>Relaxing one preference would unlock: age +17, education +11, location +6</p>
+</ol><p>Blocked e.g.: P002: age 37 outside 26-31; graduate below postgraduate; smokes; drinks | P004: height 173cm outside 148-172; graduate below postgraduate | P006: Pune, not open to relocating; graduate below postgraduate; drinks</p></details>
+<details><summary>C007 Pooja: 0 pass, 291 blocked</summary><ol>
+<p>Relaxing one preference would unlock: religion +63, age +3, location +2</p>
+</ol><p>Blocked e.g.: P001: height 154cm outside 160-190; religion Muslim not in Sikh; does not want children | P003: religion Hindu not in Sikh | P005: religion Christian not in Sikh; divorced; does not want children</p></details>
+<details><summary>C008 Arjun: 10 pass, 265 blocked</summary><ol>
+<li>P038 Naina, 31, Pune, Lawyer (score 5.43)</li>
+<li>P404 Kavya, 30, Bengaluru, Lawyer (score 5.29)</li>
+<li>P160 Naina, 34, Delhi, Doctor (score 5.14)</li>
+<li>P094 Naina, 34, Pune, Consultant (score 4.14)</li>
+<li>P460 Kavya, 30, Bengaluru, Banker (score 3.79)</li>
+<p>Relaxing one preference would unlock: age +13, height +10, religion +10</p>
+</ol><p>Blocked e.g.: P002: age 37 outside 28-35; drinks | P004: height 173cm outside 148-172 | P006: age 26 outside 28-35; religion Muslim not in Hindu; drinks</p></details>
+<details><summary>C009 Zoya: 0 pass, 298 blocked</summary><ol>
+<p>Relaxing one preference would unlock: religion +22, diet +3, age +3</p>
+</ol><p>Blocked e.g.: P001: height 154cm outside 160-190; religion Muslim not in Christian; does not want children | P003: age 34 outside 27-33; religion Hindu not in Christian | P005: diet non-veg not in veg/eggetarian; divorced; does not want children</p></details>
+<details><summary>C010 Aditya: 15 pass, 260 blocked</summary><ol>
+<li>P256 Kavya, 33, Mumbai, Teacher (score 6.40)</li>
+<li>P046 Tara, 31, Gurugram, Consultant (score 6.00)</li>
+<li>P062 Aanya, 33, Delhi, Consultant (score 5.40)</li>
+<li>P094 Naina, 34, Pune, Consultant (score 5.40)</li>
+<li>P118 Tara, 34, Pune, Consultant (score 5.40)</li>
+<p>Relaxing one preference would unlock: age +29, location +4, height +4</p>
+</ol><p>Blocked e.g.: P002: age 37 outside 31-36; smokes; drinks | P004: age 30 outside 31-36; height 173cm outside 148-172 | P006: age 26 outside 31-36; drinks</p></details>
+<details><summary>C011 Neha: 3 pass, 272 blocked</summary><ol>
+<li>P067 Karan, 36, Gurugram, Banker (score 5.00)</li>
+<li>P153 Vikram, 36, Hyderabad, Engineer (score 3.00)</li>
+<li>P487 Karan, 35, Mumbai, Consultant (score 2.12)</li>
+<p>Relaxing one preference would unlock: diet +24, religion +14, age +9</p>
+</ol><p>Blocked e.g.: P001: height 154cm outside 160-190; religion Muslim not in Hindu; does not want children | P005: religion Christian not in Hindu; diet non-veg not in veg/eggetarian; divorced; does not want children | P007: age 25 outside 28-36</p></details>
+<details><summary>C012 Dev: 0 pass, 292 blocked</summary><ol>
+<p>Relaxing one preference would unlock: religion +33, age +3, location +1</p>
+</ol><p>Blocked e.g.: P002: age 37 outside 25-32; religion Hindu not in Jain; graduate below postgraduate; smokes | P004: height 173cm outside 148-172; religion Hindu not in Jain; graduate below postgraduate | P006: religion Muslim not in Jain; graduate below postgraduate</p></details>
